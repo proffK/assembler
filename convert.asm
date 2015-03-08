@@ -144,7 +144,7 @@ def_sw1:
         mov rdi, 1
         mov rsi, err_msg
         mov rdx, err_msg_size
-    syscall
+        syscall
         jmp end_program
 
 end_sw1:
